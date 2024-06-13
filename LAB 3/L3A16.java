@@ -8,13 +8,13 @@ class L3A16{
 
         int n = sc.nextInt();
         int arr[] = new int[n];
-
+        System.out.println("Enter First eleemnt od array :");
         arr[0] = sc.nextInt();
         int minDigit = arr[0];
         int maxDigit = arr[0];
         int min=0, max=0;
 
-        for(int i=0;i<n;i++){
+        for(int i=1;i<n;i++){
             arr[i]= sc.nextInt();
             if(arr[i]<minDigit){
                 minDigit = arr[i];
